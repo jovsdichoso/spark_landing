@@ -1,0 +1,69 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ribbon" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#EF3529" />
+      <stop offset="100%" stop-color="#B70000" />
+    </linearGradient>
+  </defs>
+
+  <!-- Ribbon: an awareness-ribbon loop twisted into a figure, standing for
+       speech-and-aphasia advocacy. Drawn as two overlapping teardrop loops. -->
+  <path
+    d="M100 18
+       C 130 18 152 40 152 68
+       C 152 92 136 106 118 116
+       C 138 124 150 140 150 158
+       C 150 176 136 188 118 188
+       C 104 188 92 180 86 168
+       C 80 180 68 188 54 188
+       C 36 188 22 176 22 158
+       C 22 140 34 124 54 116
+       C 36 106 20 92 20 68
+       C 20 40 42 18 72 18
+       C 84 18 94 22 100 30
+       C 106 22 116 18 100 18 Z"
+    fill="url(#ribbon)"
+  />
+
+  <!-- Inner cut-out to read as a ribbon rather than a solid blob -->
+  <path
+    d="M100 42
+       C 116 42 128 54 128 68
+       C 128 82 116 94 100 100
+       C 84 94 72 82 72 68
+       C 72 54 84 42 100 42 Z"
+    fill="#FFFFFF"
+    fill-opacity="0.16"
+  />
+
+  <!-- Head profile with a brain/speech motif, facing right -->
+  <g transform="translate(58 56)" fill="#FFFFFF">
+    <path
+      d="M20 4
+         C 30 4 38 10 41 19
+         C 44 20 46 23 46 26
+         C 46 29 44 32 41 33
+         C 39 42 30 48 20 48
+         C 16 48 12 47 9 45
+         L 9 52
+         L 1 52
+         L 1 40
+         C -2 36 -4 31 -4 26
+         C -4 13 7 4 20 4 Z"
+    />
+    <path
+      d="M14 18 C 17 15 23 15 26 18"
+      stroke="#B70000"
+      stroke-width="2.4"
+      fill="none"
+      stroke-linecap="round"
+    />
+    <circle cx="30" cy="24" r="2.2" fill="#B70000" />
+  </g>
+
+  <!-- Spark: the small accent point at the base of the ribbon -->
+  <path
+    d="M100 150 L104 160 L114 162 L104 164 L100 174 L96 164 L86 162 L96 160 Z"
+    fill="#FFFFFF"
+  />
+</svg>

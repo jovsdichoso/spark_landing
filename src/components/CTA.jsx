@@ -14,7 +14,7 @@ export default function CTA() {
           <div className="cta-actions">
             <a href="#top" className="btn btn-primary">Create a pathologist account</a>
             <a
-              href="https://github.com/jovsdichoso/SPARK/releases/download/V1/SPARK.apk"
+              href="https://github.com/jovsdichoso/SPARK/releases/download/v2/SPARK.apk"
               className="btn btn-download"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">

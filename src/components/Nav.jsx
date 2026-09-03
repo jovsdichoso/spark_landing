@@ -19,7 +19,7 @@ export default function Nav() {
         </nav>
 
         <div className="nav-cta">
-          <a href="#portals" className="btn btn-ghost btn-sm">Patient portal</a>
+          <a href="/portal/login" className="btn btn-ghost btn-sm">Patient portal</a>
           <a href="#get-started" className="btn btn-primary btn-sm">Get started</a>
         </div>
       </div>

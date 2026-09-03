@@ -45,6 +45,9 @@ export default function Portals() {
               <li><span className="dot" />Cannot edit records, assign therapy, or schedule</li>
               <li><span className="dot" />No facial recognition, no assessment tools</li>
             </ul>
+            <a href="/portal/login" className="btn btn-primary btn-sm portal-card-cta">
+              Sign in to Patient Portal
+            </a>
           </div>
         </div>
       </div>

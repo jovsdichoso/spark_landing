@@ -621,6 +621,8 @@ p { margin: 0; }
 .portal-card.path .dot { background: var(--amber); }
 .portal-card.patient .dot { background: var(--pine); }
 
+.portal-card-cta { margin-top: 20px; }
+
 @media (max-width: 860px) {
   .portals { grid-template-columns: 1fr; }
 }
